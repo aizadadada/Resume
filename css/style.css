@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&family=Festive&family=Fjalla+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  san-serif;
+    
+}
+
+.container{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar-brand{
+    font-size: 56px;
+    font-weight: bold;
+    color: black !important;
+}
+
+.nav-link {
+   color: black !important; 
+   font-size: 56px;
+   font-weight: bold;
+
+}
+
+
+.header{
+    max-width: 100%;   
+    background: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616968774_34-p-fon-dlya-reklami-34.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Festive', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    line-height: 40px;
+    margin-top: 50px;
+    position: relative;
+}
+
+h5{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 p{
+    font-weight: normal;
+    font-size: 18px;
+    margin: 15px;
+}
+
+.container h2 .about{
+    font-size: 28px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    background:rgb(136, 92, 207);
+
+}
+.about_describe{
+    width: 100% !important;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_describe p{
+    font-weight: normal
+}
+
+.about_describe li{
+    font-weight: normal;
+}
+
+h3{
+    font-size: 46px;
+    font-weight: normal;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Festive', cursive;
+}
+
+.progress{
+    height: 30px;
+    width:100%;
+    margin-top:50px;
+}
+
+.progress-bar{
+    font-size:20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item h5{
+    color: black;
+   font-size: 32px;
+   font-weight: bold;
+   font-family:sans-serif;
+}
+
+.carousel-item h5 p{
+    color:black;
+    font-size: 28px;
+    font-weight: bold;
+    font-family:sans-serif;
+ }
+ 
+.carousel-item img{
+    width: 960px;
+    height:1080px
+}
+
+.container h3{
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+.footer p{
+    font-size: 35px;
+}
+.footer img{
+    width: 70px;
+    height: 70px;
+    margin:15px 10px;
+}
+
+.container h3{
+    font-size: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    .sidebar a{
+        height: 100%;
+        width: 30%;
+    }   
+ }
